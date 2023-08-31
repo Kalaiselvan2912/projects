@@ -1,0 +1,10 @@
+private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+String Sms;
+Sms = jTextField1.getText();
+int Entered, Remaining;
+Entered = Sms.length();
+Remaining = 200-Entered;
+jTextField2.setText(Integer.toString(Entered));
+jTextField3.setText(Integer.toString(Remaining));
+    }                                           
+
