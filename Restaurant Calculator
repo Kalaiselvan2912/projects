@@ -1,0 +1,64 @@
+private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+int total = 0;
+if(jList1.isSelectedIndex(0)==true)
+{
+    total=total+120;
+    JOptionPane.showMessageDialog(this,"Veg Biriyani Ordered of Rs.120");
+}
+if(jList1.isSelectedIndex(1)==true)
+{
+    total=total+150;
+    JOptionPane.showMessageDialog(this,"Paneer Biriyani Ordered of Rs.150");
+}
+if(jList1.isSelectedIndex(2)==true)
+{
+    total=total+160;
+    JOptionPane.showMessageDialog(this,"Aloo Biriyani Ordered of Rs.160");
+}
+if(jList1.isSelectedIndex(3)==true)
+{
+    total=total+170;
+    JOptionPane.showMessageDialog(this,"Mushroom Biriyani Ordered of Rs.170");
+}
+if(jList1.isSelectedIndex(4)==true)
+{
+    total=total+180;
+    JOptionPane.showMessageDialog(this,"Mixed Veg Biriyani Ordered of Rs.180");
+}
+if(jList1.isSelectedIndex(5)==true)
+{
+    total=total+190;
+    JOptionPane.showMessageDialog(this,"Plain Biriyani Ordered of Rs.190");
+}
+if(jList1.isSelectedIndex(6)==true)
+{
+    total=total+200;
+    JOptionPane.showMessageDialog(this,"Egg Biriyani Ordered of Rs.200");
+}
+if(jList1.isSelectedIndex(7)==true)
+{
+    total=total+220;
+    JOptionPane.showMessageDialog(this,"Chicken Biriyani Ordered of Rs.220");
+}
+if(jList1.isSelectedIndex(8)==true)
+{
+    total=total+240;
+    JOptionPane.showMessageDialog(this,"Chicken 65 Biriyani Ordered of Rs.240");
+}
+if(jList1.isSelectedIndex(9)==true)
+{
+    total=total+260;
+    JOptionPane.showMessageDialog(this,"Naatu Kozhi Biriyani Ordered of Rs.260");
+}
+if(jList1.isSelectedIndex(10)==true)
+{
+    total=total+280;
+    JOptionPane.showMessageDialog(this,"Mutton Biriyani Ordered of Rs.280");
+}
+if(jList1.isSelectedIndex(11)==true)
+{
+    total=total+300;
+    JOptionPane.showMessageDialog(this,"Fish Biriyani Ordered of Rs.300");
+}
+jTextField1.setText(Integer.toString(total));
+    }                                        
