@@ -1,0 +1,23 @@
+ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+double cost,sell=0;
+cost=Double.parseDouble(jTextField1.getText());
+switch(jComboBox1.getSelectedIndex())
+{
+    case 0 :
+        sell= cost +(0.05 * cost);
+        break;
+    case 1 :
+        sell= cost+(0.10*cost);
+        break;
+    case 2 :
+        sell= cost+(0.15*cost);
+        break;
+    case 3 :
+        sell= cost+(0.20*cost);
+        break;
+    case 4 :
+        sell= cost+(0.25*cost);
+        break;
+}
+       jTextField2.setText(Double.toString(sell));
+    }                                        
